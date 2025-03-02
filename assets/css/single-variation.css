@@ -1,0 +1,30 @@
+/**
+ * Single variation styles
+ */
+
+/* Hide reset link for single variations */
+.single-variation-auto-selected .reset_variations {
+    display: none !important;
+}
+
+/* Ensure the add to cart button is always visible */
+.single-variation-auto-selected .single_add_to_cart_button {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+/* Make sure the add to cart section is visible */
+.single-variation-auto-selected .woocommerce-variation-add-to-cart {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Backup CSS to hide elements if JavaScript fails */
+.single-variation-auto-selected table.variations {
+    display: none !important;
+}
+
+.single-variation-auto-selected p[role="alert"] {
+    display: none !important;
+}
